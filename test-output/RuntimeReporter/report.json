@@ -1,0 +1,480 @@
+{
+  "reportSummary": {
+    "testMethodsSummary": {
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0
+    },
+    "configurationMethodsSummary": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "testMethods": [
+    {
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "InitialTest",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:27:11.993+01:00",
+      "endTime": "2021-08-07T17:27:14.457+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert passed in InitialTest()\n"
+        }
+      ]
+    },
+    {
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "testAppleProducts",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:27:18.678+01:00",
+      "endTime": "2021-08-07T17:28:12.523+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testAppleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testAppleProducts()\n"
+        }
+      ]
+    },
+    {
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "testSamsungProducts",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:28:18.007+01:00",
+      "endTime": "2021-08-07T17:29:01.342+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testSamsungProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testSamsungProducts()\n"
+        }
+      ]
+    },
+    {
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "testGoogleProducts",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:29:06.186+01:00",
+      "endTime": "2021-08-07T17:29:25.846+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testGoogleProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testGoogleProducts()\n"
+        }
+      ]
+    },
+    {
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "testOnePlusProducts",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:29:31.018+01:00",
+      "endTime": "2021-08-07T17:29:51.616+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The product name is matching in the cart.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in testOnePlusProducts()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in testOnePlusProducts()\n"
+        }
+      ]
+    }
+  ],
+  "configurationMethods": [
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "setUp",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:27:07.623+01:00",
+      "endTime": "2021-08-07T17:27:11.972+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "tearDown",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:27:14.459+01:00",
+      "endTime": "2021-08-07T17:27:15.010+01:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "setUp",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:27:15.015+01:00",
+      "endTime": "2021-08-07T17:27:18.675+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "tearDown",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:28:12.558+01:00",
+      "endTime": "2021-08-07T17:28:13.094+01:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "setUp",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:28:13.097+01:00",
+      "endTime": "2021-08-07T17:28:18.005+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "tearDown",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:29:01.345+01:00",
+      "endTime": "2021-08-07T17:29:02.036+01:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "setUp",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:29:02.039+01:00",
+      "endTime": "2021-08-07T17:29:06.183+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "tearDown",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:29:25.869+01:00",
+      "endTime": "2021-08-07T17:29:26.553+01:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "setUp",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:29:26.556+01:00",
+      "endTime": "2021-08-07T17:29:31.016+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "SingleTest",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "tearDown",
+      "status": "Passed",
+      "startTime": "2021-08-07T17:29:51.619+01:00",
+      "endTime": "2021-08-07T17:29:52.355+01:00",
+      "description": ""
+    }
+  ],
+  "configSummary": {
+    "currentDate": "2021-08-07T17:27:07.588+01:00"
+  },
+  "localConfigSummary": [
+    {
+      "currentDate": "2021-08-07T17:27:07.605+01:00",
+      "suite": "Selion Test",
+      "test": "SingleTest"
+    }
+  ],
+  "reporterMetadata": {
+    "currentDate": {
+      "displayLabel": "Current Date"
+    }
+  }
+}

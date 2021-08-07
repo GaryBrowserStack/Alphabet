@@ -1,0 +1,594 @@
+08.06.2021 13:02:09.805,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 13:02:09.809,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 13:02:09.949,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 13:02:10.066,[16] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 13:02:10.121,[16] SeLion-1.2.0 INFO Setting up SeLion Grid for first time use...
+08.06.2021 13:02:10.129,[16] SeLion-1.2.0 FINE File copied to /Users/gary_behan/.selion/config/download.json
+08.06.2021 13:02:10.131,[16] SeLion-1.2.0 FINE File copied to /Users/gary_behan/.selion/config/SeLionConfig.json
+08.06.2021 13:02:10.140,[17] SeLion-1.2.0 INFO This instance is considered a SeLion Grid Hub
+08.06.2021 13:02:10.144,[17] SeLion-1.2.0 FINE File copied to /Users/gary_behan/.selion/config/hubConfig.json
+08.06.2021 13:02:10.146,[17] SeLion-1.2.0 FINE Invoking SeLionGridLauncher with arguments: [-role, hub, -port, 4945, -host, 127.0.0.1, -hubConfig, /Users/gary_behan/.selion/config/hubConfig.json, -selionConfig, /Users/gary_behan/.selion/config/SeLionConfig.json]
+08.06.2021 13:02:10.168,[17] SeLion-1.2.0 FINE Environment Variables: [{PATH=/usr/local/autoconf/bin:/usr/local/mysql/bin:/Users/gary_behan/webdrivers:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/gary_behan/webdrivers:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands, JAVA_MAIN_CLASS_13775=com.intellij.rt.testng.RemoteTestNGStarter, SHELL=/bin/bash, USER=gary_behan, TMPDIR=/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.158PmPLvqf/Listeners, XPC_FLAGS=0x0, VERSIONER_PYTHON_VERSION=2.7, __CF_USER_TEXT_ENCODING=0x38BF6354:0:2, LOGNAME=gary_behan, LC_CTYPE=en_GB.UTF-8, PWD=/Users/Gary_Behan/Documents/Java/Alphabet, XPC_SERVICE_NAME=com.jetbrains.intellij.22392, HOME=/Users/gary_behan}]
+08.06.2021 13:02:10.169,[17] SeLion-1.2.0 FINE JVM System Properties: [{java.specification.version=14, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, sun.jnu.encoding=UTF-8, java.runtime.version=14.0.2+12-46, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/testng/lib/testng-rt.jar:/Users/Gary_Behan/Documents/Java/Alphabet/target/test-classes:/Users/Gary_Behan/Documents/Java/Alphabet/target/classes:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/Gary_Behan/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/Gary_Behan/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion/1.2.0/SeLion-1.2.0.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-Common/1.2.0/SeLion-Common-1.2.0.jar:/Users/Gary_Behan/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/Gary_Behan/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Gary_Behan/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-DataProviders/1.2.0/SeLion-DataProviders-1.2.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi-ooxml/3.6/poi-ooxml-3.6.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.6/poi-ooxml-schemas-3.6.jar:/Users/Gary_Behan/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/Gary_Behan/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/Gary_Behan/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0/geronimo-stax-api_1.0_spec-1.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi/3.6/poi-3.6.jar:/Users/Gary_Behan/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13.jar:/Users/Gary_Behan/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar:/Users/Gary_Behan/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar:/Users/Gary_Behan/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/Gary_Behan/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/Gary_Behan/.m2/repository/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.53.1/selenium-java-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.53.1/selenium-chrome-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.53.1/selenium-remote-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/2.53.1/selenium-edge-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/selenium-firefox-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.53.1/selenium-ie-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/Gary_Behan/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.53.1/selenium-safari-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/io/netty/netty/3.5.7.Final/netty-3.5.7.Final.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.53.1/selenium-support-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.53.1/selenium-leg-rc-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.20/htmlunit-driver-2.20.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.20/htmlunit-2.20.jar:/Users/Gary_Behan/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/Gary_Behan/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/Gary_Behan/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.18/cssparser-0.9.18.jar:/Users/Gary_Behan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.15.v20160210/websocket-client-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.15.v20160210/websocket-common-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.15.v20160210/websocket-api-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/Gary_Behan/.m2/repository/com/codeborne/phantomjsdriver/1.3.0/phantomjsdriver-1.3.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-client/0.17.0/selendroid-client-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-server-common/0.17.0/selendroid-server-common-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/netty/netty-all/4.0.21.Final/netty-all-4.0.21.Final.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-client/0.6.5/ios-client-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-common/0.6.5/ios-common-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/Gary_Behan/.m2/repository/io/appium/java-client/4.1.2/java-client-4.1.2.jar:/Users/Gary_Behan/.m2/repository/commons-validator/commons-validator/1.5.1/commons-validator-1.5.1.jar:/Users/Gary_Behan/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/Gary_Behan/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/Gary_Behan/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar:/Users/Gary_Behan/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/Gary_Behan/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/Gary_Behan/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/Gary_Behan/.m2/repository/net/sf/uadetector/uadetector-resources/2014.10/uadetector-resources-2014.10.jar:/Users/Gary_Behan/.m2/repository/net/sf/uadetector/uadetector-core/0.9.22/uadetector-core-0.9.22.jar:/Users/Gary_Behan/.m2/repository/net/sf/qualitycheck/quality-check/1.3/quality-check-1.3.jar:/Users/Gary_Behan/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/Gary_Behan/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/Users/Gary_Behan/.m2/repository/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-Grid/1.2.0/SeLion-Grid-1.2.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar:/Users/Gary_Behan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Gary_Behan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Gary_Behan/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-grid-plugin/0.17.0/selendroid-grid-plugin-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-common/0.17.0/selendroid-common-0.17.0.jar:/Users/Gary_Behan/.m2/repository/org/json/json/20090211/json-20090211.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-grid/0.6.5/ios-grid-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/Users/Gary_Behan/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.53.1/selenium-server-2.53.1.jar:/Users/Gary_Behan/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/Gary_Behan/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar:/Users/Gary_Behan/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar:/Users/Gary_Behan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.2.13.v20150730/jetty-repacked-9.2.13.v20150730.jar:/Users/Gary_Behan/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/jetty-rc-repacked/5/jetty-rc-repacked-5.jar:/Users/Gary_Behan/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/Gary_Behan/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/testng/lib/jcommander-1.27.jar, user.name=gary_behan, java.vm.vendor=Oracle Corporation, path.separator=:, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, os.version=10.15.7, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Dublin, java.vm.name=OpenJDK 64-Bit Server VM, java.vm.specification.version=14, os.name=Mac OS X, sun.java.launcher=SUN_STANDARD, user.country=GB, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib, sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket55339 @w@/private/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/idea_working_dirs_testng.tmp -temp /private/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/idea_testng.tmp, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/, jdk.debug=release, sun.cpu.endian=little, java.version=14.0.2, user.home=/Users/gary_behan, user.dir=/Users/Gary_Behan/Documents/Java/Alphabet, os.arch=x86_64, user.language=en, java.specification.vendor=Oracle Corporation, java.vm.specification.name=Java Virtual Machine Specification, java.version.date=2020-07-14, java.home=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.library.path=/Users/gary_behan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vm.info=mixed mode, sharing, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.vendor=Oracle Corporation, java.vm.version=14.0.2+12-46, sun.io.unicode.encoding=UnicodeBig, java.class.version=58.0}]
+08.06.2021 13:02:10.170,[17] SeLion-1.2.0 INFO Launching a selenium grid server
+08.06.2021 13:02:10.988,[17] SeLion-1.2.0 INFO Nodes should register to http://127.0.0.1:4945/grid/register/
+08.06.2021 13:02:10.989,[17] SeLion-1.2.0 INFO Selenium Grid hub is up and running
+08.06.2021 13:02:12.205,[16] SeLion-1.2.0 INFO LocalHub spawned
+08.06.2021 13:02:12.210,[16] SeLion-1.2.0 INFO Verifying SeLion Grid installation...
+08.06.2021 13:02:12.215,[31] SeLion-1.2.0 FINE Current Platform: MAC
+08.06.2021 13:02:12.215,[31] SeLion-1.2.0 FINE Files after download and extract: []
+08.06.2021 13:02:12.216,[31] SeLion-1.2.0 INFO This instance is considered a SeLion Grid Node
+08.06.2021 13:02:12.217,[31] SeLion-1.2.0 FINE File copied to /Users/gary_behan/.selion/config/nodeConfig.json
+08.06.2021 13:02:12.218,[31] SeLion-1.2.0 FINE Invoking SeLionGridLauncher with arguments: [-role, node, -port, 34894, -proxy, org.openqa.grid.selenium.proxy.DefaultRemoteProxy, -host, 127.0.0.1, -hub, http://127.0.0.1:4945/grid/register, -nodeConfig, /Users/gary_behan/.selion/config/nodeConfig.json, -selionConfig, /Users/gary_behan/.selion/config/SeLionConfig.json]
+08.06.2021 13:02:12.219,[31] SeLion-1.2.0 FINE Environment Variables: [{PATH=/usr/local/autoconf/bin:/usr/local/mysql/bin:/Users/gary_behan/webdrivers:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/gary_behan/webdrivers:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands, JAVA_MAIN_CLASS_13775=com.intellij.rt.testng.RemoteTestNGStarter, SHELL=/bin/bash, USER=gary_behan, TMPDIR=/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.158PmPLvqf/Listeners, XPC_FLAGS=0x0, VERSIONER_PYTHON_VERSION=2.7, __CF_USER_TEXT_ENCODING=0x38BF6354:0:2, LOGNAME=gary_behan, LC_CTYPE=en_GB.UTF-8, PWD=/Users/Gary_Behan/Documents/Java/Alphabet, XPC_SERVICE_NAME=com.jetbrains.intellij.22392, HOME=/Users/gary_behan}]
+08.06.2021 13:02:12.219,[31] SeLion-1.2.0 FINE JVM System Properties: [{java.specification.version=14, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, sun.jnu.encoding=UTF-8, java.runtime.version=14.0.2+12-46, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/testng/lib/testng-rt.jar:/Users/Gary_Behan/Documents/Java/Alphabet/target/test-classes:/Users/Gary_Behan/Documents/Java/Alphabet/target/classes:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/Gary_Behan/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/Gary_Behan/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion/1.2.0/SeLion-1.2.0.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-Common/1.2.0/SeLion-Common-1.2.0.jar:/Users/Gary_Behan/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/Gary_Behan/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Gary_Behan/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-DataProviders/1.2.0/SeLion-DataProviders-1.2.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi-ooxml/3.6/poi-ooxml-3.6.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.6/poi-ooxml-schemas-3.6.jar:/Users/Gary_Behan/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/Gary_Behan/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/Gary_Behan/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0/geronimo-stax-api_1.0_spec-1.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi/3.6/poi-3.6.jar:/Users/Gary_Behan/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13.jar:/Users/Gary_Behan/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar:/Users/Gary_Behan/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar:/Users/Gary_Behan/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/Gary_Behan/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/Gary_Behan/.m2/repository/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.53.1/selenium-java-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.53.1/selenium-chrome-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.53.1/selenium-remote-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/2.53.1/selenium-edge-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/selenium-firefox-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.53.1/selenium-ie-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/Gary_Behan/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.53.1/selenium-safari-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/io/netty/netty/3.5.7.Final/netty-3.5.7.Final.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.53.1/selenium-support-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.53.1/selenium-leg-rc-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.20/htmlunit-driver-2.20.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.20/htmlunit-2.20.jar:/Users/Gary_Behan/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/Gary_Behan/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/Gary_Behan/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.18/cssparser-0.9.18.jar:/Users/Gary_Behan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.15.v20160210/websocket-client-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.15.v20160210/websocket-common-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.15.v20160210/websocket-api-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/Gary_Behan/.m2/repository/com/codeborne/phantomjsdriver/1.3.0/phantomjsdriver-1.3.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-client/0.17.0/selendroid-client-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-server-common/0.17.0/selendroid-server-common-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/netty/netty-all/4.0.21.Final/netty-all-4.0.21.Final.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-client/0.6.5/ios-client-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-common/0.6.5/ios-common-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/Gary_Behan/.m2/repository/io/appium/java-client/4.1.2/java-client-4.1.2.jar:/Users/Gary_Behan/.m2/repository/commons-validator/commons-validator/1.5.1/commons-validator-1.5.1.jar:/Users/Gary_Behan/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/Gary_Behan/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/Gary_Behan/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar:/Users/Gary_Behan/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/Gary_Behan/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/Gary_Behan/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/Gary_Behan/.m2/repository/net/sf/uadetector/uadetector-resources/2014.10/uadetector-resources-2014.10.jar:/Users/Gary_Behan/.m2/repository/net/sf/uadetector/uadetector-core/0.9.22/uadetector-core-0.9.22.jar:/Users/Gary_Behan/.m2/repository/net/sf/qualitycheck/quality-check/1.3/quality-check-1.3.jar:/Users/Gary_Behan/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/Gary_Behan/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/Users/Gary_Behan/.m2/repository/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-Grid/1.2.0/SeLion-Grid-1.2.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar:/Users/Gary_Behan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Gary_Behan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Gary_Behan/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-grid-plugin/0.17.0/selendroid-grid-plugin-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-common/0.17.0/selendroid-common-0.17.0.jar:/Users/Gary_Behan/.m2/repository/org/json/json/20090211/json-20090211.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-grid/0.6.5/ios-grid-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/Users/Gary_Behan/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.53.1/selenium-server-2.53.1.jar:/Users/Gary_Behan/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/Gary_Behan/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar:/Users/Gary_Behan/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar:/Users/Gary_Behan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.2.13.v20150730/jetty-repacked-9.2.13.v20150730.jar:/Users/Gary_Behan/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/jetty-rc-repacked/5/jetty-rc-repacked-5.jar:/Users/Gary_Behan/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/Gary_Behan/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/testng/lib/jcommander-1.27.jar, user.name=gary_behan, java.vm.vendor=Oracle Corporation, path.separator=:, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, os.version=10.15.7, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Dublin, java.vm.name=OpenJDK 64-Bit Server VM, java.vm.specification.version=14, os.name=Mac OS X, sun.java.launcher=SUN_STANDARD, user.country=GB, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib, sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket55339 @w@/private/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/idea_working_dirs_testng.tmp -temp /private/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/idea_testng.tmp, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/, jdk.debug=release, sun.cpu.endian=little, java.version=14.0.2, user.home=/Users/gary_behan, user.dir=/Users/Gary_Behan/Documents/Java/Alphabet, os.arch=x86_64, user.language=en, java.specification.vendor=Oracle Corporation, java.vm.specification.name=Java Virtual Machine Specification, java.version.date=2020-07-14, java.home=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.library.path=/Users/gary_behan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vm.info=mixed mode, sharing, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.vendor=Oracle Corporation, java.vm.version=14.0.2+12-46, sun.io.unicode.encoding=UnicodeBig, java.class.version=58.0}]
+08.06.2021 13:02:12.220,[31] SeLion-1.2.0 INFO Launching a selenium grid node
+08.06.2021 13:02:12.375,[31] SeLion-1.2.0 INFO Selenium Grid node is up and ready to register to the hub
+08.06.2021 13:02:14.336,[16] SeLion-1.2.0 INFO LocalNode spawned
+08.06.2021 13:02:14.366,[16] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 13:03:00.030,[1] SeLion-1.2.0 INFO Selenium is shut down
+08.06.2021 13:03:00.032,[1] SeLion-1.2.0 INFO LocalNode has been stopped
+08.06.2021 13:03:00.050,[1] SeLion-1.2.0 INFO Selenium is shut down
+08.06.2021 13:03:00.053,[1] SeLion-1.2.0 INFO LocalHub has been stopped
+08.06.2021 13:03:29.121,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 13:03:29.123,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 13:03:29.224,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 13:03:29.346,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 13:03:29.411,[15] SeLion-1.2.0 INFO Verifying SeLion Grid installation...
+08.06.2021 13:03:29.419,[16] SeLion-1.2.0 INFO This instance is considered a SeLion Grid Hub
+08.06.2021 13:03:29.420,[16] SeLion-1.2.0 FINE Invoking SeLionGridLauncher with arguments: [-role, hub, -port, 32452, -host, 127.0.0.1, -hubConfig, /Users/gary_behan/.selion/config/hubConfig.json, -selionConfig, /Users/gary_behan/.selion/config/SeLionConfig.json]
+08.06.2021 13:03:29.436,[16] SeLion-1.2.0 FINE Environment Variables: [{PATH=/usr/local/autoconf/bin:/usr/local/mysql/bin:/Users/gary_behan/webdrivers:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/gary_behan/webdrivers:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands, SHELL=/bin/bash, JAVA_MAIN_CLASS_13902=com.intellij.rt.testng.RemoteTestNGStarter, USER=gary_behan, TMPDIR=/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.158PmPLvqf/Listeners, XPC_FLAGS=0x0, VERSIONER_PYTHON_VERSION=2.7, __CF_USER_TEXT_ENCODING=0x38BF6354:0:2, LOGNAME=gary_behan, LC_CTYPE=en_GB.UTF-8, PWD=/Users/Gary_Behan/Documents/Java/Alphabet, XPC_SERVICE_NAME=com.jetbrains.intellij.22392, HOME=/Users/gary_behan}]
+08.06.2021 13:03:29.437,[16] SeLion-1.2.0 FINE JVM System Properties: [{java.specification.version=14, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, sun.jnu.encoding=UTF-8, java.runtime.version=14.0.2+12-46, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/testng/lib/testng-rt.jar:/Users/Gary_Behan/Documents/Java/Alphabet/target/test-classes:/Users/Gary_Behan/Documents/Java/Alphabet/target/classes:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/Gary_Behan/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/Gary_Behan/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion/1.2.0/SeLion-1.2.0.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-Common/1.2.0/SeLion-Common-1.2.0.jar:/Users/Gary_Behan/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/Gary_Behan/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Gary_Behan/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-DataProviders/1.2.0/SeLion-DataProviders-1.2.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi-ooxml/3.6/poi-ooxml-3.6.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.6/poi-ooxml-schemas-3.6.jar:/Users/Gary_Behan/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/Gary_Behan/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/Gary_Behan/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0/geronimo-stax-api_1.0_spec-1.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi/3.6/poi-3.6.jar:/Users/Gary_Behan/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13.jar:/Users/Gary_Behan/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar:/Users/Gary_Behan/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar:/Users/Gary_Behan/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/Gary_Behan/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/Gary_Behan/.m2/repository/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.53.1/selenium-java-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.53.1/selenium-chrome-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.53.1/selenium-remote-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/2.53.1/selenium-edge-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/selenium-firefox-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.53.1/selenium-ie-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/Gary_Behan/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.53.1/selenium-safari-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/io/netty/netty/3.5.7.Final/netty-3.5.7.Final.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.53.1/selenium-support-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.53.1/selenium-leg-rc-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.20/htmlunit-driver-2.20.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.20/htmlunit-2.20.jar:/Users/Gary_Behan/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/Gary_Behan/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/Gary_Behan/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.18/cssparser-0.9.18.jar:/Users/Gary_Behan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.15.v20160210/websocket-client-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.15.v20160210/websocket-common-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.15.v20160210/websocket-api-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/Gary_Behan/.m2/repository/com/codeborne/phantomjsdriver/1.3.0/phantomjsdriver-1.3.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-client/0.17.0/selendroid-client-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-server-common/0.17.0/selendroid-server-common-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/netty/netty-all/4.0.21.Final/netty-all-4.0.21.Final.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-client/0.6.5/ios-client-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-common/0.6.5/ios-common-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/Gary_Behan/.m2/repository/io/appium/java-client/4.1.2/java-client-4.1.2.jar:/Users/Gary_Behan/.m2/repository/commons-validator/commons-validator/1.5.1/commons-validator-1.5.1.jar:/Users/Gary_Behan/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/Gary_Behan/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/Gary_Behan/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar:/Users/Gary_Behan/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/Gary_Behan/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/Gary_Behan/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/Gary_Behan/.m2/repository/net/sf/uadetector/uadetector-resources/2014.10/uadetector-resources-2014.10.jar:/Users/Gary_Behan/.m2/repository/net/sf/uadetector/uadetector-core/0.9.22/uadetector-core-0.9.22.jar:/Users/Gary_Behan/.m2/repository/net/sf/qualitycheck/quality-check/1.3/quality-check-1.3.jar:/Users/Gary_Behan/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/Gary_Behan/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/Users/Gary_Behan/.m2/repository/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-Grid/1.2.0/SeLion-Grid-1.2.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar:/Users/Gary_Behan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Gary_Behan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Gary_Behan/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-grid-plugin/0.17.0/selendroid-grid-plugin-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-common/0.17.0/selendroid-common-0.17.0.jar:/Users/Gary_Behan/.m2/repository/org/json/json/20090211/json-20090211.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-grid/0.6.5/ios-grid-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/Users/Gary_Behan/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.53.1/selenium-server-2.53.1.jar:/Users/Gary_Behan/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/Gary_Behan/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar:/Users/Gary_Behan/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar:/Users/Gary_Behan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.2.13.v20150730/jetty-repacked-9.2.13.v20150730.jar:/Users/Gary_Behan/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/jetty-rc-repacked/5/jetty-rc-repacked-5.jar:/Users/Gary_Behan/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/Gary_Behan/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/testng/lib/jcommander-1.27.jar, user.name=gary_behan, java.vm.vendor=Oracle Corporation, path.separator=:, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, os.version=10.15.7, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Dublin, java.vm.name=OpenJDK 64-Bit Server VM, java.vm.specification.version=14, os.name=Mac OS X, sun.java.launcher=SUN_STANDARD, user.country=GB, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib, sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket55875 @w@/private/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/idea_working_dirs_testng.tmp -temp /private/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/idea_testng.tmp, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/, jdk.debug=release, sun.cpu.endian=little, java.version=14.0.2, user.home=/Users/gary_behan, user.dir=/Users/Gary_Behan/Documents/Java/Alphabet, os.arch=x86_64, user.language=en, java.specification.vendor=Oracle Corporation, java.vm.specification.name=Java Virtual Machine Specification, java.version.date=2020-07-14, java.home=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.library.path=/Users/gary_behan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vm.info=mixed mode, sharing, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.vendor=Oracle Corporation, java.vm.version=14.0.2+12-46, sun.io.unicode.encoding=UnicodeBig, java.class.version=58.0}]
+08.06.2021 13:03:29.438,[16] SeLion-1.2.0 INFO Launching a selenium grid server
+08.06.2021 13:03:30.120,[16] SeLion-1.2.0 INFO Nodes should register to http://127.0.0.1:32452/grid/register/
+08.06.2021 13:03:30.120,[16] SeLion-1.2.0 INFO Selenium Grid hub is up and running
+08.06.2021 13:03:30.487,[15] SeLion-1.2.0 INFO LocalHub spawned
+08.06.2021 13:03:30.493,[15] SeLion-1.2.0 INFO Verifying SeLion Grid installation...
+08.06.2021 13:03:30.499,[31] SeLion-1.2.0 FINE Current Platform: MAC
+08.06.2021 13:03:30.499,[31] SeLion-1.2.0 FINE Files after download and extract: []
+08.06.2021 13:03:30.500,[31] SeLion-1.2.0 INFO This instance is considered a SeLion Grid Node
+08.06.2021 13:03:30.501,[31] SeLion-1.2.0 FINE Invoking SeLionGridLauncher with arguments: [-role, node, -port, 39874, -proxy, org.openqa.grid.selenium.proxy.DefaultRemoteProxy, -host, 127.0.0.1, -hub, http://127.0.0.1:32452/grid/register, -nodeConfig, /Users/gary_behan/.selion/config/nodeConfig.json, -selionConfig, /Users/gary_behan/.selion/config/SeLionConfig.json]
+08.06.2021 13:03:30.502,[31] SeLion-1.2.0 FINE Environment Variables: [{PATH=/usr/local/autoconf/bin:/usr/local/mysql/bin:/Users/gary_behan/webdrivers:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/gary_behan/webdrivers:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands, SHELL=/bin/bash, JAVA_MAIN_CLASS_13902=com.intellij.rt.testng.RemoteTestNGStarter, USER=gary_behan, TMPDIR=/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.158PmPLvqf/Listeners, XPC_FLAGS=0x0, VERSIONER_PYTHON_VERSION=2.7, __CF_USER_TEXT_ENCODING=0x38BF6354:0:2, LOGNAME=gary_behan, LC_CTYPE=en_GB.UTF-8, PWD=/Users/Gary_Behan/Documents/Java/Alphabet, XPC_SERVICE_NAME=com.jetbrains.intellij.22392, HOME=/Users/gary_behan}]
+08.06.2021 13:03:30.502,[31] SeLion-1.2.0 FINE JVM System Properties: [{java.specification.version=14, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, sun.jnu.encoding=UTF-8, java.runtime.version=14.0.2+12-46, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/testng/lib/testng-rt.jar:/Users/Gary_Behan/Documents/Java/Alphabet/target/test-classes:/Users/Gary_Behan/Documents/Java/Alphabet/target/classes:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/Gary_Behan/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/Gary_Behan/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/Users/Gary_Behan/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion/1.2.0/SeLion-1.2.0.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-Common/1.2.0/SeLion-Common-1.2.0.jar:/Users/Gary_Behan/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/Gary_Behan/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Gary_Behan/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-DataProviders/1.2.0/SeLion-DataProviders-1.2.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi-ooxml/3.6/poi-ooxml-3.6.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.6/poi-ooxml-schemas-3.6.jar:/Users/Gary_Behan/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/Gary_Behan/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/Gary_Behan/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0/geronimo-stax-api_1.0_spec-1.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/poi/poi/3.6/poi-3.6.jar:/Users/Gary_Behan/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13.jar:/Users/Gary_Behan/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar:/Users/Gary_Behan/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar:/Users/Gary_Behan/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/Gary_Behan/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/Gary_Behan/.m2/repository/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.53.1/selenium-java-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.53.1/selenium-chrome-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.53.1/selenium-remote-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/2.53.1/selenium-edge-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/selenium-firefox-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.53.1/selenium-ie-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/Gary_Behan/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.53.1/selenium-safari-driver-2.53.1.jar:/Users/Gary_Behan/.m2/repository/io/netty/netty/3.5.7.Final/netty-3.5.7.Final.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.53.1/selenium-support-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.53.1/selenium-leg-rc-2.53.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.20/htmlunit-driver-2.20.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.20/htmlunit-2.20.jar:/Users/Gary_Behan/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/Gary_Behan/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/Gary_Behan/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/Users/Gary_Behan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.18/cssparser-0.9.18.jar:/Users/Gary_Behan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.15.v20160210/websocket-client-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.15.v20160210/websocket-common-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.15.v20160210/websocket-api-9.2.15.v20160210.jar:/Users/Gary_Behan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/Gary_Behan/.m2/repository/com/codeborne/phantomjsdriver/1.3.0/phantomjsdriver-1.3.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-client/0.17.0/selendroid-client-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-server-common/0.17.0/selendroid-server-common-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/netty/netty-all/4.0.21.Final/netty-all-4.0.21.Final.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-client/0.6.5/ios-client-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-common/0.6.5/ios-common-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/Gary_Behan/.m2/repository/io/appium/java-client/4.1.2/java-client-4.1.2.jar:/Users/Gary_Behan/.m2/repository/commons-validator/commons-validator/1.5.1/commons-validator-1.5.1.jar:/Users/Gary_Behan/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/Gary_Behan/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/Gary_Behan/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.jar:/Users/Gary_Behan/.m2/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar:/Users/Gary_Behan/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/Gary_Behan/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/Gary_Behan/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/Gary_Behan/.m2/repository/net/sf/uadetector/uadetector-resources/2014.10/uadetector-resources-2014.10.jar:/Users/Gary_Behan/.m2/repository/net/sf/uadetector/uadetector-core/0.9.22/uadetector-core-0.9.22.jar:/Users/Gary_Behan/.m2/repository/net/sf/qualitycheck/quality-check/1.3/quality-check-1.3.jar:/Users/Gary_Behan/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/Gary_Behan/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/Users/Gary_Behan/.m2/repository/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3.jar:/Users/Gary_Behan/.m2/repository/com/paypal/selion/SeLion-Grid/1.2.0/SeLion-Grid-1.2.0.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar:/Users/Gary_Behan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar:/Users/Gary_Behan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Gary_Behan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Gary_Behan/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-grid-plugin/0.17.0/selendroid-grid-plugin-0.17.0.jar:/Users/Gary_Behan/.m2/repository/io/selendroid/selendroid-common/0.17.0/selendroid-common-0.17.0.jar:/Users/Gary_Behan/.m2/repository/org/json/json/20090211/json-20090211.jar:/Users/Gary_Behan/.m2/repository/org/uiautomation/ios-grid/0.6.5/ios-grid-0.6.5.jar:/Users/Gary_Behan/.m2/repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/Users/Gary_Behan/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.53.1/selenium-server-2.53.1.jar:/Users/Gary_Behan/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/Gary_Behan/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar:/Users/Gary_Behan/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar:/Users/Gary_Behan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.2.13.v20150730/jetty-repacked-9.2.13.v20150730.jar:/Users/Gary_Behan/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/Gary_Behan/.m2/repository/org/seleniumhq/selenium/jetty-rc-repacked/5/jetty-rc-repacked-5.jar:/Users/Gary_Behan/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/Gary_Behan/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/testng/lib/jcommander-1.27.jar, user.name=gary_behan, java.vm.vendor=Oracle Corporation, path.separator=:, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, os.version=10.15.7, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Dublin, java.vm.name=OpenJDK 64-Bit Server VM, java.vm.specification.version=14, os.name=Mac OS X, sun.java.launcher=SUN_STANDARD, user.country=GB, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib, sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket55875 @w@/private/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/idea_working_dirs_testng.tmp -temp /private/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/idea_testng.tmp, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=/var/folders/72/zp6n6ds574q0g0j8q70xt5yhwbyrtm/T/, jdk.debug=release, sun.cpu.endian=little, java.version=14.0.2, user.home=/Users/gary_behan, user.dir=/Users/Gary_Behan/Documents/Java/Alphabet, os.arch=x86_64, user.language=en, java.specification.vendor=Oracle Corporation, java.vm.specification.name=Java Virtual Machine Specification, java.version.date=2020-07-14, java.home=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.library.path=/Users/gary_behan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vm.info=mixed mode, sharing, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.vendor=Oracle Corporation, java.vm.version=14.0.2+12-46, sun.io.unicode.encoding=UnicodeBig, java.class.version=58.0}]
+08.06.2021 13:03:30.503,[31] SeLion-1.2.0 INFO Launching a selenium grid node
+08.06.2021 13:03:30.644,[31] SeLion-1.2.0 INFO Selenium Grid node is up and ready to register to the hub
+08.06.2021 13:03:32.611,[15] SeLion-1.2.0 INFO LocalNode spawned
+08.06.2021 13:03:32.627,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:chrome,javascriptEnabled:true,chromeOptions:org.openqa.selenium.chrome.ChromeOptions@4458b859,version:,unexpectedAlertBehaviour:ignore,
+08.06.2021 13:03:35.354,[15] SeLion-1.2.0 INFO Running on: {Client OS=Mac OS X 10.15.7, Selenium Version=2.53.1, Browser=Chrome 92.0.4515.131 running on OS X 10.15.7}
+08.06.2021 13:03:38.400,[15] SeLion-1.2.0 FINE ById will be the location strategy that will be used for locating id=lst-ib
+08.06.2021 13:57:25.746,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 13:57:25.749,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/target/surefire-reports/RuntimeReporter/index.html
+08.06.2021 13:57:25.909,[1] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 13:57:25.967,[1] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 13:59:04.531,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 13:59:04.533,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/target/surefire-reports/RuntimeReporter/index.html
+08.06.2021 13:59:04.695,[1] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 13:59:04.754,[1] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:00:48.911,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:00:48.914,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/target/surefire-reports/RuntimeReporter/index.html
+08.06.2021 14:00:49.091,[1] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:00:49.158,[1] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:01:19.094,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:01:19.096,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/target/surefire-reports/RuntimeReporter/index.html
+08.06.2021 14:01:19.281,[1] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:01:19.340,[1] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:15:49.733,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:15:49.850,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:15:49.868,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:15:50.037,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:15:50.135,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:22:46.735,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:22:46.737,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:22:46.831,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:22:46.968,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:22:47.040,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:22:56.522,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:22:56.525,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:22:56.613,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:22:56.704,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:22:56.765,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:23:28.094,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:23:28.187,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:23:28.198,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:23:28.279,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:23:28.332,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:24:26.410,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:24:26.412,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:24:26.502,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:24:26.626,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:24:26.674,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:chrome,javascriptEnabled:true,chromeOptions:org.openqa.selenium.chrome.ChromeOptions@4458b859,version:,unexpectedAlertBehaviour:ignore,
+08.06.2021 14:24:31.743,[15] SeLion-1.2.0 INFO Running on: {Client OS=Mac OS X 10.15.7, Selenium Version=2.53.1, Browser=Chrome 92.0.4515.107 running on Windows 10.0}
+08.06.2021 14:24:31.866,[15] SeLion-1.2.0 FINE Failed to acquire remote webdriver node and port info. Root cause: 
+java.net.UnknownHostException: garybehan_7f6qGO:ATSSDf9Xs5pPgBLtznYE@hub.browserstack.com: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1505)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at com.paypal.selion.platform.grid.Grid.getRemoteNodeInfo(Grid.java:214)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.createSession(WebTestSession.java:152)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.startSession(WebTestSession.java:163)
+	at com.paypal.selion.platform.grid.Grid.driver(Grid.java:107)
+	at com.alphabet.test.DemoTest.DemoTest(DemoTest.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.06.2021 14:24:32.937,[15] SeLion-1.2.0 FINE ById will be the location strategy that will be used for locating id=lst-ib
+08.06.2021 14:26:34.590,[15] SeLion-1.2.0 INFO Please review the test report for the screenshot at the time of failure.
+08.06.2021 14:38:17.080,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:38:17.199,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:38:17.215,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:38:17.357,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:38:17.412,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:chrome,javascriptEnabled:true,chromeOptions:org.openqa.selenium.chrome.ChromeOptions@4458b859,version:,unexpectedAlertBehaviour:ignore,
+08.06.2021 14:38:22.640,[15] SeLion-1.2.0 INFO Running on: {Client OS=Mac OS X 10.15.7, Selenium Version=2.53.1, Browser=Chrome 92.0.4515.107 running on Windows 7 6.1}
+08.06.2021 14:38:22.646,[15] SeLion-1.2.0 FINE Failed to acquire remote webdriver node and port info. Root cause: 
+java.net.UnknownHostException: garybehan_7f6qGO:ATSSDf9Xs5pPgBLtznYE@hub.browserstack.com: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1505)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at com.paypal.selion.platform.grid.Grid.getRemoteNodeInfo(Grid.java:214)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.createSession(WebTestSession.java:152)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.startSession(WebTestSession.java:163)
+	at com.paypal.selion.platform.grid.Grid.driver(Grid.java:107)
+	at com.alphabet.test.DemoTest.DemoTest(DemoTest.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.06.2021 14:38:23.667,[15] SeLion-1.2.0 FINE ById will be the location strategy that will be used for locating id=lst-ib
+08.06.2021 14:38:24.983,[15] SeLion-1.2.0 INFO Please review the test report for the screenshot at the time of failure.
+08.06.2021 14:39:46.520,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:39:46.621,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:39:46.637,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:39:46.800,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:39:46.846,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:chrome,javascriptEnabled:true,chromeOptions:org.openqa.selenium.chrome.ChromeOptions@4458b859,version:,unexpectedAlertBehaviour:ignore,
+08.06.2021 14:39:56.989,[15] SeLion-1.2.0 INFO Running on: {Client OS=Mac OS X 10.15.7, Selenium Version=2.53.1, Browser=Chrome 92.0.4515.107 running on Windows 7 6.1}
+08.06.2021 14:39:56.995,[15] SeLion-1.2.0 FINE Failed to acquire remote webdriver node and port info. Root cause: 
+java.net.UnknownHostException: garybehan_7f6qGO:ATSSDf9Xs5pPgBLtznYE@hub.browserstack.com: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1505)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at com.paypal.selion.platform.grid.Grid.getRemoteNodeInfo(Grid.java:214)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.createSession(WebTestSession.java:152)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.startSession(WebTestSession.java:163)
+	at com.paypal.selion.platform.grid.Grid.driver(Grid.java:107)
+	at com.alphabet.test.DemoTest.DemoTest(DemoTest.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.06.2021 14:39:58.280,[15] SeLion-1.2.0 FINE ByXPath will be the location strategy that will be used for locating //input[@class='gLFyf gsfi']
+08.06.2021 14:40:39.478,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:40:39.480,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:40:39.572,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:40:39.731,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:40:39.821,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:49:25.111,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:49:25.114,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:49:25.288,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:49:25.450,[16] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:49:25.559,[16] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:50:19.062,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:50:19.176,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:50:19.191,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:50:19.309,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:50:19.361,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:53:07.777,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:53:07.780,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:53:43.810,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:53:43.812,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:53:43.896,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:53:43.977,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:53:44.036,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:54:02.821,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:54:02.824,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:55:59.230,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:55:59.233,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:55:59.320,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:55:59.464,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:55:59.550,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:56:48.885,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/target/surefire-reports/RuntimeReporter/index.html
+08.06.2021 14:56:48.994,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:56:49.006,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 14:56:49.128,[14] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:56:49.198,[14] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:57:47.696,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:57:47.698,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:57:47.907,[1] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:57:47.973,[1] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 14:59:02.198,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 14:59:02.337,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 14:59:02.503,[1] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 14:59:02.565,[1] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 15:00:00.539,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 15:00:00.541,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 15:00:00.770,[1] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 15:00:00.863,[1] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 15:00:06.308,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 15:00:06.403,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 15:00:06.412,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 15:00:06.495,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 15:00:06.532,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:chrome,javascriptEnabled:true,chromeOptions:org.openqa.selenium.chrome.ChromeOptions@4458b859,version:,unexpectedAlertBehaviour:ignore,
+08.06.2021 15:00:13.959,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 15:00:14.051,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 15:00:14.060,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 15:00:14.140,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 15:00:14.178,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:chrome,javascriptEnabled:true,chromeOptions:org.openqa.selenium.chrome.ChromeOptions@4458b859,version:,unexpectedAlertBehaviour:ignore,
+08.06.2021 15:00:19.855,[15] SeLion-1.2.0 INFO Running on: {Client OS=Mac OS X 10.15.7, Selenium Version=2.53.1, Browser=Chrome 92.0.4515.107 running on Windows 10.0}
+08.06.2021 15:00:19.977,[15] SeLion-1.2.0 FINE Failed to acquire remote webdriver node and port info. Root cause: 
+java.net.UnknownHostException: garybehan_7f6qGO:ATSSDf9Xs5pPgBLtznYE@hub.browserstack.com: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1505)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at com.paypal.selion.platform.grid.Grid.getRemoteNodeInfo(Grid.java:214)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.createSession(WebTestSession.java:152)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.startSession(WebTestSession.java:163)
+	at com.paypal.selion.platform.grid.Grid.driver(Grid.java:107)
+	at com.alphabet.test.DemoTest.DemoTest(DemoTest.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.06.2021 15:00:21.827,[15] SeLion-1.2.0 FINE ByXPath will be the location strategy that will be used for locating //input[@class='gLFyf gsfi']
+08.06.2021 15:01:13.044,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 15:01:13.046,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 15:01:13.132,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 15:01:13.240,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 15:01:13.316,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:chrome,javascriptEnabled:true,chromeOptions:org.openqa.selenium.chrome.ChromeOptions@4458b859,version:,unexpectedAlertBehaviour:ignore,
+08.06.2021 15:01:21.071,[15] SeLion-1.2.0 INFO Running on: {Client OS=Mac OS X 10.15.7, Selenium Version=2.53.1, Browser=Chrome 92.0.4515.107 running on Windows 8 6.2}
+08.06.2021 15:01:21.081,[15] SeLion-1.2.0 FINE Failed to acquire remote webdriver node and port info. Root cause: 
+java.net.UnknownHostException: garybehan_7f6qGO:ATSSDf9Xs5pPgBLtznYE@hub.browserstack.com: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1505)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at com.paypal.selion.platform.grid.Grid.getRemoteNodeInfo(Grid.java:214)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.createSession(WebTestSession.java:152)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.startSession(WebTestSession.java:163)
+	at com.paypal.selion.platform.grid.Grid.driver(Grid.java:107)
+	at com.alphabet.test.DemoTest.DemoTest(DemoTest.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.06.2021 15:01:22.533,[15] SeLion-1.2.0 FINE ByXPath will be the location strategy that will be used for locating //input[@class='gLFyf gsfi']
+08.06.2021 15:01:34.397,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 15:01:34.399,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 15:01:34.500,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.06.2021 15:01:34.590,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 15:01:34.632,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:chrome,javascriptEnabled:true,chromeOptions:org.openqa.selenium.chrome.ChromeOptions@4458b859,version:,unexpectedAlertBehaviour:ignore,
+08.06.2021 15:03:11.165,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 15:03:11.168,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 15:03:11.400,[1] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 15:03:11.474,[1] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.06.2021 15:04:06.239,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.06.2021 15:04:06.242,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.06.2021 15:04:06.475,[1] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.06.2021 15:04:06.666,[1] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:firefox,javascriptEnabled:true,version:,unexpectedAlertBehaviour:ignore,firefox_profile:,
+08.07.2021 15:02:26.848,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:02:26.850,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:08:03.926,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:08:04.048,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:08:04.062,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 15:08:08.294,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.07.2021 15:08:08.316,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:chrome,javascriptEnabled:true,chromeOptions:org.openqa.selenium.chrome.ChromeOptions@4458b859,version:,unexpectedAlertBehaviour:ignore,
+08.07.2021 15:08:13.156,[15] SeLion-1.2.0 INFO Running on: {Client OS=Mac OS X 10.15.7, Selenium Version=2.53.1, Browser=Chrome 92.0.4515.107 running on Windows 10.0}
+08.07.2021 15:08:13.274,[15] SeLion-1.2.0 FINE Failed to acquire remote webdriver node and port info. Root cause: 
+java.net.UnknownHostException: garybehan_7f6qGO:ATSSDf9Xs5pPgBLtznYE@hub.browserstack.com: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1505)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at com.paypal.selion.platform.grid.Grid.getRemoteNodeInfo(Grid.java:214)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.createSession(WebTestSession.java:152)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.startSession(WebTestSession.java:163)
+	at com.paypal.selion.platform.grid.Grid.driver(Grid.java:107)
+	at com.alphabet.test.DemoTest.DemoTest(DemoTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.07.2021 15:08:14.634,[15] SeLion-1.2.0 FINE ByXPath will be the location strategy that will be used for locating //input[@class='gLFyf gsfi']
+08.07.2021 15:14:32.540,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:14:32.648,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:14:32.669,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 15:14:37.142,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.07.2021 15:14:37.157,[15] SeLion-1.2.0 FINE Spawning a browser with the following capabilities: acceptSslCerts:true,name:com.alphabet.test.DemoTest:DemoTest(),browserName:chrome,javascriptEnabled:true,chromeOptions:org.openqa.selenium.chrome.ChromeOptions@4458b859,version:,unexpectedAlertBehaviour:ignore,
+08.07.2021 15:14:43.625,[15] SeLion-1.2.0 INFO Running on: {Client OS=Mac OS X 10.15.7, Selenium Version=2.53.1, Browser=Chrome 92.0.4515.107 running on Windows 10.0}
+08.07.2021 15:14:43.630,[15] SeLion-1.2.0 FINE Failed to acquire remote webdriver node and port info. Root cause: 
+java.net.UnknownHostException: garybehan_7f6qGO:ATSSDf9Xs5pPgBLtznYE@hub.browserstack.com: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1505)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at com.paypal.selion.platform.grid.Grid.getRemoteNodeInfo(Grid.java:214)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.createSession(WebTestSession.java:152)
+	at com.paypal.selion.internal.platform.grid.WebTestSession.startSession(WebTestSession.java:163)
+	at com.paypal.selion.platform.grid.Grid.driver(Grid.java:107)
+	at com.alphabet.test.DemoTest.DemoTest(DemoTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.07.2021 15:14:44.888,[15] SeLion-1.2.0 FINE ByXPath will be the location strategy that will be used for locating //input[@class='gLFyf gsfi']
+08.07.2021 15:20:52.758,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:20:52.760,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:20:52.842,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 15:22:11.765,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:22:11.873,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:22:11.888,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 15:24:13.704,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:24:13.706,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:24:13.809,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 15:29:07.249,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:29:07.251,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:29:07.361,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 15:30:16.600,[15] SeLion-1.2.0 WARNING An error occurred while processing afterInvocation: null
+java.lang.NullPointerException
+	at com.paypal.selion.platform.asserts.SeLionSoftAssert.assertAll(SeLionSoftAssert.java:137)
+	at com.paypal.selion.internal.platform.asserts.SeLionAssertsListener.afterInvocation(SeLionAssertsListener.java:77)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+	at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:556)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:699)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.07.2021 15:31:18.560,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:31:18.567,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:31:18.716,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 15:33:59.139,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:33:59.235,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:33:59.248,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 15:35:10.660,[15] SeLion-1.2.0 WARNING An error occurred while processing afterInvocation: null
+java.lang.NullPointerException
+	at com.paypal.selion.platform.asserts.SeLionSoftAssert.assertAll(SeLionSoftAssert.java:137)
+	at com.paypal.selion.internal.platform.asserts.SeLionAssertsListener.afterInvocation(SeLionAssertsListener.java:77)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+	at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:556)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:699)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.07.2021 15:37:03.541,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:37:03.630,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:37:03.642,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 15:45:49.524,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:45:49.528,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:45:49.618,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 15:51:13.398,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 15:51:13.483,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 15:51:13.493,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SampleTest
+08.07.2021 16:04:54.131,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 16:04:54.245,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 16:04:54.260,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SingleTest
+08.07.2021 16:05:53.557,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 16:05:53.559,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 16:05:53.635,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SingleTest
+08.07.2021 16:18:40.031,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 16:18:40.149,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 16:18:40.165,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SingleTest
+08.07.2021 16:39:48.125,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 16:39:48.257,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 16:39:48.272,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SingleTest
+08.07.2021 16:40:53.420,[15] SeLion-1.2.0 WARNING An error occurred while processing afterInvocation: null
+java.lang.NullPointerException
+	at com.paypal.selion.platform.asserts.SeLionSoftAssert.assertAll(SeLionSoftAssert.java:137)
+	at com.paypal.selion.internal.platform.asserts.SeLionAssertsListener.afterInvocation(SeLionAssertsListener.java:77)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+	at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:556)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:699)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.07.2021 16:41:42.398,[15] SeLion-1.2.0 WARNING An error occurred while processing afterInvocation: null
+java.lang.NullPointerException
+	at com.paypal.selion.platform.asserts.SeLionSoftAssert.assertAll(SeLionSoftAssert.java:137)
+	at com.paypal.selion.internal.platform.asserts.SeLionAssertsListener.afterInvocation(SeLionAssertsListener.java:77)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+	at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:556)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:699)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.07.2021 16:42:19.782,[15] SeLion-1.2.0 WARNING An error occurred while processing afterInvocation: null
+java.lang.NullPointerException
+	at com.paypal.selion.platform.asserts.SeLionSoftAssert.assertAll(SeLionSoftAssert.java:137)
+	at com.paypal.selion.internal.platform.asserts.SeLionAssertsListener.afterInvocation(SeLionAssertsListener.java:77)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+	at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:556)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:699)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08.07.2021 17:09:01.298,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 17:09:01.300,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 17:09:01.449,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SingleTest
+08.07.2021 17:27:07.516,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/test-output/RuntimeReporter/index.html
+08.07.2021 17:27:07.602,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.07.2021 17:27:07.610,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, SingleTest
