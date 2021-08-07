@@ -3,8 +3,31 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b360b774-5554-4b3f-90d7-9edfdd0f11da" name="Default Changelist" comment="">
+    <list default="true" id="b360b774-5554-4b3f-90d7-9edfdd0f11da" name="Default Changelist" comment="Initial Commit">
       <change afterPath="$PROJECT_DIR$/../AEMAutomation/AEMAutomation.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AEMAutomation/DeploymentTests/DeploymentTests.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AEMAutomation/global/global.iml" afterDir="false" />
@@ -42,8 +65,10 @@
       <change afterPath="$PROJECT_DIR$/../AEMScripts/src/main/java/com/aemscripts/retention/UpdateLargoSavingsInfo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AEMScripts/src/main/java/com/aemscripts/retention/UpdateRenewCTAText.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AEMScripts/src/main/java/com/aemscripts/retention/UpdateSymToNLOK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/learn-github-actions.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/LocalRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/SingleRun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/common/CommonLibrary.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/page/PageLevelRegression.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/constants/generalConstants.java" afterDir="false" />
@@ -819,12 +844,27 @@
       <workItem from="1628250556976" duration="10000" />
       <workItem from="1628250603297" duration="836000" />
       <workItem from="1628251458718" duration="4569000" />
-      <workItem from="1628344783922" duration="9269000" />
+      <workItem from="1628344783922" duration="10226000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1496" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628256196149">
@@ -843,6 +883,14 @@
       <screen x="0" y="23" width="1920" height="1112" />
     </state>
     <state x="655" y="293" key="#xdebugger.evaluate/0.23.1920.1112@0.23.1920.1112" timestamp="1628346352646" />
+    <state x="537" y="154" key="CommitChangelistDialog2" timestamp="1628355610723">
+      <screen x="0" y="23" width="1920" height="1112" />
+    </state>
+    <state x="537" y="154" key="CommitChangelistDialog2/0.23.1920.1112@0.23.1920.1112" timestamp="1628355610723" />
+    <state x="831" y="483" key="Github.ShareDialog" timestamp="1628355284197">
+      <screen x="0" y="23" width="1920" height="1112" />
+    </state>
+    <state x="831" y="483" key="Github.ShareDialog/0.23.1920.1112@0.23.1920.1112" timestamp="1628355284197" />
     <state width="1920" height="308" key="GridCell.Tab.0.bottom" timestamp="1628353626759">
       <screen x="0" y="23" width="1920" height="1112" />
     </state>
@@ -884,6 +932,10 @@
     </state>
     <state x="448" y="139" key="SettingsEditor/0.23.1920.1112@0.23.1920.1112" timestamp="1628355196177" />
     <state x="-1472" y="133" key="SettingsEditor/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@-1920.23.1920.1057" timestamp="1628251255929" />
+    <state x="560" y="319" key="Vcs.Push.Dialog.v2" timestamp="1628355538021">
+      <screen x="0" y="23" width="1920" height="1112" />
+    </state>
+    <state x="560" y="319" key="Vcs.Push.Dialog.v2/0.23.1920.1112@0.23.1920.1112" timestamp="1628355538021" />
     <state x="-1237" y="451" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1628251090683">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>

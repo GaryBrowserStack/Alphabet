@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: learn-github-actions-gb
 on: [push]
 jobs:
   check-bats-version:
@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: mvn clean
-      - run: mvn test -P single
+      - run: mvn test -e -P single
