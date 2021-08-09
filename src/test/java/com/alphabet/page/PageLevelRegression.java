@@ -1,6 +1,7 @@
 package com.alphabet.page;
 
 import com.alphabet.common.CommonLibrary;
+import com.paypal.selion.annotations.WebTest;
 import com.paypal.selion.platform.asserts.SeLionAsserts;
 import com.paypal.selion.platform.grid.Grid;
 import com.paypal.selion.platform.html.support.HtmlElementUtils;
@@ -10,6 +11,8 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
+@WebTest
+@Test(singleThreaded = true)
 public class PageLevelRegression extends CommonLibrary {
 
     @Test(priority = 1)
