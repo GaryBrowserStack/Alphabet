@@ -27,6 +27,9 @@ jobs:
       - name: 'Run a Parallel test'
         run: mvn test -e -P parallel
 
+      - name: Allure Report with history
+        uses: simple-elf/allure-report-action@v1.5
+
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
