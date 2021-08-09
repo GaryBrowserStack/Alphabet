@@ -65,7 +65,8 @@
       <change afterPath="$PROJECT_DIR$/../AEMScripts/src/main/java/com/aemscripts/retention/UpdateLargoSavingsInfo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AEMScripts/src/main/java/com/aemscripts/retention/UpdateRenewCTAText.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AEMScripts/src/main/java/com/aemscripts/retention/UpdateSymToNLOK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/learn-github-actions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/bs-gh-actions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/garyb-browserstack-test.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/LocalRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/SingleRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -844,7 +845,7 @@
       <workItem from="1628250556976" duration="10000" />
       <workItem from="1628250603297" duration="836000" />
       <workItem from="1628251458718" duration="4569000" />
-      <workItem from="1628344783922" duration="10226000" />
+      <workItem from="1628344783922" duration="11831000" />
     </task>
     <servers />
   </component>
