@@ -77,8 +77,6 @@ public class CommonLibrary {
         }
 
         testURL = (String) config.get("testpage");
-        System.out.println("LOG USERNAME: " + username);
-        System.out.println("LOG PASSSWORD: " + accessKey);
 
         driver = new RemoteWebDriver(
                 new URL("http://" + username + ":" + accessKey + "@" + server + "/wd/hub"), capabilities);

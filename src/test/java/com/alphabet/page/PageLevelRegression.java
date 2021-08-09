@@ -3,12 +3,9 @@ package com.alphabet.page;
 import com.alphabet.common.CommonLibrary;
 import com.paypal.selion.annotations.WebTest;
 import com.paypal.selion.platform.asserts.SeLionAsserts;
-import com.paypal.selion.platform.grid.Grid;
-import com.paypal.selion.platform.html.support.HtmlElementUtils;
 import constants.generalConstants;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.List;

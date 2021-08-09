@@ -1,9 +1,0 @@
-name: garyb-browserstack-test
-on: [push]
-jobs:
-  run-single-test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: mvn clean
-      - run: mvn test -e -P single

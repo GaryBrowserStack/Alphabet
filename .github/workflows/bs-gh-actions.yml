@@ -25,7 +25,7 @@ jobs:
         run: mvn clean
 
       - name: 'Run a Single test'
-        run: mvn test -e -P single
+        run: mvn test -e -P parallel
 
       - name: 'BrowserStackLocal Stop'  # Terminating the BrowserStackLocal tunnel connection
         uses: browserstack/github-actions/setup-local@master

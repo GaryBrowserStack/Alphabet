@@ -66,15 +66,16 @@
       <change afterPath="$PROJECT_DIR$/../AEMScripts/src/main/java/com/aemscripts/retention/UpdateRenewCTAText.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AEMScripts/src/main/java/com/aemscripts/retention/UpdateSymToNLOK.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.github/workflows/bs-gh-actions.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/garyb-browserstack-test.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/LocalRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/SingleRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/common/CommonLibrary.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/page/PageLevelRegression.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/page/PageLevelRegression_Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/pricing/PricingChecks.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/constants/generalConstants.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/LocalRun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ParallelRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/SingleRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/conf/local.conf.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/conf/parallel.conf.json" afterDir="false" />
@@ -720,7 +721,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/alphabet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -742,10 +743,10 @@
       <recent name="com.alphabet.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test/java/com/alphabet" />
       <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/src/test/resources/conf" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/Gary_Behan/Documents/Java/Alphabet/src/test/resources/SingleRun.xml">
@@ -847,7 +848,7 @@
       <workItem from="1628250556976" duration="10000" />
       <workItem from="1628250603297" duration="836000" />
       <workItem from="1628251458718" duration="4569000" />
-      <workItem from="1628344783922" duration="15302000" />
+      <workItem from="1628344783922" duration="15985000" />
     </task>
     <servers />
   </component>
