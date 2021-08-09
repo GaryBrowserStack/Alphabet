@@ -3,6 +3,7 @@
        skipfailedinvocationcounts="false" junit="false" parallel="classes"
        data-provider-thread-count="1" annotations="JDK">
 
+    <parameter name="seleniumHost" value=""/>
     <parameter name="config" value="single.conf.json"/>
     <parameter name="environment" value="chrome"/>
 

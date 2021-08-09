@@ -2,6 +2,7 @@ package com.alphabet.common;
 
 import com.browserstack.local.Local;
 import com.paypal.selion.platform.asserts.SeLionAsserts;
+import com.paypal.selion.platform.grid.Grid;
 import constants.generalConstants;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -72,8 +73,9 @@ public class CommonLibrary {
 
         testURL = (String) config.get("testpage");
 
-        driver = new RemoteWebDriver(
-                new URL("http://" + username + ":" + accessKey + "@" + config.get("server") + "/wd/hub"), capabilities);
+        //driver = new RemoteWebDriver(
+          //      new URL("http://" + username + ":" + accessKey + "@" + config.get("server") + "/wd/hub"), capabilities);
+        driver = Grid.driver();
     }
 
     @AfterMethod(alwaysRun = true)
