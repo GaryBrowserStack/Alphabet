@@ -13,6 +13,16 @@
   "environments": {
     "chrome": {
       "browser": "chrome"
+    },
+    "firefox": {
+      "browser": "firefox"
+    },
+    "safari": {
+      "os": "OS X",
+      "browser": "safari"
+    },
+    "ie": {
+      "browser": "internet explorer"
     }
   }
 }
