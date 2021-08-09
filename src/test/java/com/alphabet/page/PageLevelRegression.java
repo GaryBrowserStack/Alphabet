@@ -17,17 +17,17 @@ public class PageLevelRegression extends CommonLibrary {
 
     @Test(priority = 1)
     public void InitialTest() {
-        driver.get(testURL);
+        Grid.open(testURL);
 
         // First thing we want to do is ensure we are on the correct page by looking for an identifier.
-        SeLionAsserts.verifyTrue(driver.getPageSource().contains("StackDemo"), "The correct page is being shown.");
+        SeLionAsserts.verifyTrue(driver.getPageSource().contains("StackDemo"),
+                "The correct page is being shown.");
     }
 
     @Test(priority = 2)
     public void testAppleProducts() throws Exception {
         // Before we load the page again, we should clear the cookies to ensure a fresh session
-        Grid.driver().manage().deleteAllCookies();
-        Grid.open(testURL);
+        driver.get(testURL);
 
         List<WebElement> productList = HtmlElementUtils.locateElements(generalConstants.productNamesXpath);
 
