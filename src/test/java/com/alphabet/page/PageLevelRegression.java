@@ -2,9 +2,9 @@ package com.alphabet.page;
 
 import com.alphabet.common.CommonLibrary;
 import com.paypal.selion.platform.asserts.SeLionAsserts;
+import com.paypal.selion.platform.grid.Grid;
 import com.paypal.selion.platform.html.support.HtmlElementUtils;
 import constants.generalConstants;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
@@ -23,8 +23,8 @@ public class PageLevelRegression extends CommonLibrary {
     @Test(priority = 2)
     public void testAppleProducts() throws Exception {
         // Before we load the page again, we should clear the cookies to ensure a fresh session
-        driver.manage().deleteAllCookies();
-        driver.get(testURL);
+        Grid.driver().manage().deleteAllCookies();
+        Grid.open(testURL);
 
         List<WebElement> productList = HtmlElementUtils.locateElements(generalConstants.productNamesXpath);
 
