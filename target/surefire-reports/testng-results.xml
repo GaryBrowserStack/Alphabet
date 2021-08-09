@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Soft Assert [The correct page is being shown.] passed in validateValidPage()
+]]>
+    </line>
+    <line>
+      <![CDATA[Soft Assert passed in validateProductList()
+]]>
+    </line>
+    <line>
+      <![CDATA[Soft Assert [The correct page is being shown.] passed in validateValidPage()
+]]>
+    </line>
+    <line>
+      <![CDATA[Soft Assert passed in validateProductList()
+]]>
+    </line>
+    <line>
+      <![CDATA[Soft Assert [The correct page is being shown.] passed in validateValidPage()
+]]>
+    </line>
+    <line>
+      <![CDATA[Soft Assert passed in validateProductList()
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-09T13:23:00Z" name="Selion Test" finished-at="2021-08-09T13:23:59Z" duration-ms="59453">
+    <groups>
+    </groups>
+    <test started-at="2021-08-09T13:23:00Z" name="ParallelTest1" finished-at="2021-08-09T13:23:24Z" duration-ms="24018">
+      <class name="com.alphabet.page.PageLevelRegression">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.alphabet.page.PageLevelRegression@76ed1b7c]" started-at="2021-08-09T14:23:00Z" name="setUp" test-instance-name="" finished-at="2021-08-09T14:23:09Z" duration-ms="9168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[env1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateValidPage()[pri:1, instance:com.alphabet.page.PageLevelRegression@76ed1b7c]" started-at="2021-08-09T14:23:09Z" name="validateValidPage" test-instance-name="" finished-at="2021-08-09T14:23:11Z" duration-ms="1961" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Soft Assert [The correct page is being shown.] passed in validateValidPage()
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateValidPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.alphabet.page.PageLevelRegression@76ed1b7c]" started-at="2021-08-09T14:23:11Z" name="tearDown" test-instance-name="" finished-at="2021-08-09T14:23:12Z" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.alphabet.page.PageLevelRegression@76ed1b7c]" started-at="2021-08-09T14:23:12Z" name="setUp" test-instance-name="" finished-at="2021-08-09T14:23:21Z" duration-ms="9204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[env1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateProductList()[pri:2, instance:com.alphabet.page.PageLevelRegression@76ed1b7c]" started-at="2021-08-09T14:23:21Z" name="validateProductList" test-instance-name="" finished-at="2021-08-09T14:23:23Z" duration-ms="2019" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Soft Assert passed in validateProductList()
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateProductList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.alphabet.page.PageLevelRegression@76ed1b7c]" started-at="2021-08-09T14:23:23Z" name="tearDown" test-instance-name="" finished-at="2021-08-09T14:23:24Z" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.alphabet.page.PageLevelRegression -->
+    </test> <!-- ParallelTest1 -->
+    <test started-at="2021-08-09T13:23:24Z" name="ParallelTest2" finished-at="2021-08-09T13:23:37Z" duration-ms="13218">
+      <class name="com.alphabet.page.PageLevelRegression">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.alphabet.page.PageLevelRegression@574b560f]" started-at="2021-08-09T14:23:24Z" name="setUp" test-instance-name="" finished-at="2021-08-09T14:23:29Z" duration-ms="4685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[env2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateValidPage()[pri:1, instance:com.alphabet.page.PageLevelRegression@574b560f]" started-at="2021-08-09T14:23:29Z" name="validateValidPage" test-instance-name="" finished-at="2021-08-09T14:23:30Z" duration-ms="1573" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Soft Assert [The correct page is being shown.] passed in validateValidPage()
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateValidPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.alphabet.page.PageLevelRegression@574b560f]" started-at="2021-08-09T14:23:30Z" name="tearDown" test-instance-name="" finished-at="2021-08-09T14:23:31Z" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.alphabet.page.PageLevelRegression@574b560f]" started-at="2021-08-09T14:23:31Z" name="setUp" test-instance-name="" finished-at="2021-08-09T14:23:35Z" duration-ms="3903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[env2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateProductList()[pri:2, instance:com.alphabet.page.PageLevelRegression@574b560f]" started-at="2021-08-09T14:23:35Z" name="validateProductList" test-instance-name="" finished-at="2021-08-09T14:23:36Z" duration-ms="1340" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Soft Assert passed in validateProductList()
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateProductList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.alphabet.page.PageLevelRegression@574b560f]" started-at="2021-08-09T14:23:36Z" name="tearDown" test-instance-name="" finished-at="2021-08-09T14:23:37Z" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.alphabet.page.PageLevelRegression -->
+    </test> <!-- ParallelTest2 -->
+    <test started-at="2021-08-09T13:23:37Z" name="ParallelTest3" finished-at="2021-08-09T13:23:59Z" duration-ms="22185">
+      <class name="com.alphabet.page.PageLevelRegression">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.alphabet.page.PageLevelRegression@71c3b41]" started-at="2021-08-09T14:23:37Z" name="setUp" test-instance-name="" finished-at="2021-08-09T14:23:42Z" duration-ms="5151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[env3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateValidPage()[pri:1, instance:com.alphabet.page.PageLevelRegression@71c3b41]" started-at="2021-08-09T14:23:42Z" name="validateValidPage" test-instance-name="" finished-at="2021-08-09T14:23:44Z" duration-ms="1765" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Soft Assert [The correct page is being shown.] passed in validateValidPage()
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateValidPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.alphabet.page.PageLevelRegression@71c3b41]" started-at="2021-08-09T14:23:44Z" name="tearDown" test-instance-name="" finished-at="2021-08-09T14:23:46Z" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.alphabet.page.PageLevelRegression@71c3b41]" started-at="2021-08-09T14:23:46Z" name="setUp" test-instance-name="" finished-at="2021-08-09T14:23:50Z" duration-ms="4521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[env3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateProductList()[pri:2, instance:com.alphabet.page.PageLevelRegression@71c3b41]" started-at="2021-08-09T14:23:50Z" name="validateProductList" test-instance-name="" finished-at="2021-08-09T14:23:58Z" duration-ms="8034" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Soft Assert passed in validateProductList()
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateProductList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.alphabet.page.PageLevelRegression@71c3b41]" started-at="2021-08-09T14:23:58Z" name="tearDown" test-instance-name="" finished-at="2021-08-09T14:23:59Z" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.alphabet.page.PageLevelRegression -->
+    </test> <!-- ParallelTest3 -->
+  </suite> <!-- Selion Test -->
+</testng-results>

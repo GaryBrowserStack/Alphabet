@@ -1,0 +1,277 @@
+{
+  "reportSummary": {
+    "testMethodsSummary": {
+      "passed": 6,
+      "failed": 0,
+      "skipped": 0
+    },
+    "configurationMethodsSummary": {
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "testMethods": [
+    {
+      "suite": "Selion Test",
+      "test": "ParallelTest1",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:21.572+01:00",
+      "endTime": "2021-08-09T14:23:23.591+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert passed in validateProductList()\n"
+        }
+      ]
+    },
+    {
+      "suite": "Selion Test",
+      "test": "ParallelTest2",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:35.436+01:00",
+      "endTime": "2021-08-09T14:23:36.776+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert passed in validateProductList()\n"
+        }
+      ]
+    },
+    {
+      "suite": "Selion Test",
+      "test": "ParallelTest3",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:50.730+01:00",
+      "endTime": "2021-08-09T14:23:58.764+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert passed in validateProductList()\n"
+        }
+      ]
+    },
+    {
+      "suite": "Selion Test",
+      "test": "ParallelTest1",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:09.612+01:00",
+      "endTime": "2021-08-09T14:23:11.573+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert [The correct page is being shown.] passed in validateValidPage()\n"
+        }
+      ]
+    },
+    {
+      "suite": "Selion Test",
+      "test": "ParallelTest2",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:29.118+01:00",
+      "endTime": "2021-08-09T14:23:30.691+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert [The correct page is being shown.] passed in validateValidPage()\n"
+        }
+      ]
+    },
+    {
+      "suite": "Selion Test",
+      "test": "ParallelTest3",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:42.806+01:00",
+      "endTime": "2021-08-09T14:23:44.571+01:00",
+      "logs": [
+        {
+          "message": "Soft Assert [The correct page is being shown.] passed in validateValidPage()\n"
+        }
+      ]
+    }
+  ],
+  "configurationMethods": [
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest1",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:00.419+01:00",
+      "endTime": "2021-08-09T14:23:09.587+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest1",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:11.576+01:00",
+      "endTime": "2021-08-09T14:23:12.362+01:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest1",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:12.365+01:00",
+      "endTime": "2021-08-09T14:23:21.569+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest1",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:23.594+01:00",
+      "endTime": "2021-08-09T14:23:24.396+01:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest2",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:24.429+01:00",
+      "endTime": "2021-08-09T14:23:29.114+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest2",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:30.694+01:00",
+      "endTime": "2021-08-09T14:23:31.527+01:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest2",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:31.529+01:00",
+      "endTime": "2021-08-09T14:23:35.432+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest2",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:36.780+01:00",
+      "endTime": "2021-08-09T14:23:37.641+01:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest3",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:37.653+01:00",
+      "endTime": "2021-08-09T14:23:42.804+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest3",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:44.573+01:00",
+      "endTime": "2021-08-09T14:23:46.204+01:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest3",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:46.207+01:00",
+      "endTime": "2021-08-09T14:23:50.728+01:00",
+      "description": ""
+    },
+    {
+      "type": "AfterMethod",
+      "suite": "Selion Test",
+      "test": "ParallelTest3",
+      "packageInfo": "com.alphabet.page",
+      "className": "PageLevelRegression",
+      "methodName": "",
+      "status": "Passed",
+      "startTime": "2021-08-09T14:23:58.767+01:00",
+      "endTime": "2021-08-09T14:23:59.831+01:00",
+      "description": ""
+    }
+  ],
+  "configSummary": {
+    "currentDate": "2021-08-09T14:23:00.240+01:00"
+  },
+  "localConfigSummary": [
+    {
+      "currentDate": "2021-08-09T14:23:00.386+01:00",
+      "suite": "Selion Test",
+      "test": "ParallelTest1"
+    },
+    {
+      "currentDate": "2021-08-09T14:23:24.425+01:00",
+      "suite": "Selion Test",
+      "test": "ParallelTest2"
+    },
+    {
+      "currentDate": "2021-08-09T14:23:37.649+01:00",
+      "suite": "Selion Test",
+      "test": "ParallelTest3"
+    }
+  ],
+  "reporterMetadata": {
+    "currentDate": {
+      "displayLabel": "Current Date"
+    }
+  }
+}
