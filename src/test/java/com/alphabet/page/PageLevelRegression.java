@@ -15,15 +15,9 @@ import java.util.List;
 @WebTest
 @Test(singleThreaded = true)
 public class PageLevelRegression extends CommonLibrary {
-
-    @BeforeClass(alwaysRun = true)
-    public void setup() {
-        driver = Grid.driver();
-    }
-
     @Test(priority = 1)
     public void InitialTest() {
-        Grid.open(testURL);
+        driver.get(testURL);
 
         // First thing we want to do is ensure we are on the correct page by looking for an identifier.
         SeLionAsserts.verifyTrue(driver.getPageSource().contains("StackDemo"),
