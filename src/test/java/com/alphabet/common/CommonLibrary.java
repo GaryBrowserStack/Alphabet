@@ -25,6 +25,9 @@ public class CommonLibrary {
     public String testURL;
 
     public WebDriver driver;
+    public String username;
+    public String accessKey;
+    public String server;
     private Local l;
 
     @BeforeMethod(alwaysRun = true)
@@ -53,15 +56,17 @@ public class CommonLibrary {
             }
         }
 
-        String username = System.getenv("BROWSERSTACK_USERNAME");
+        username = System.getenv("BROWSERSTACK_USERNAME");
         if (username == null) {
             username = (String) config.get("user");
         }
 
-        String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
+        accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
         if (accessKey == null) {
             accessKey = (String) config.get("key");
         }
+
+        server = config.get("server").toString();
 
         if (capabilities.getCapability("browserstack.local") != null
                 && capabilities.getCapability("browserstack.local") == "true") {
@@ -76,7 +81,7 @@ public class CommonLibrary {
         System.out.println("LOG PASSSWORD: " + accessKey);
 
         driver = new RemoteWebDriver(
-                new URL("http://" + username + ":" + accessKey + "@" + config.get("server") + "/wd/hub"), capabilities);
+                new URL("http://" + username + ":" + accessKey + "@" + server + "/wd/hub"), capabilities);
 
     }
 

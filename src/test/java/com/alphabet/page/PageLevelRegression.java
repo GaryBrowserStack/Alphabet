@@ -6,6 +6,7 @@ import com.paypal.selion.platform.asserts.SeLionAsserts;
 import com.paypal.selion.platform.grid.Grid;
 import com.paypal.selion.platform.html.support.HtmlElementUtils;
 import constants.generalConstants;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -29,7 +30,7 @@ public class PageLevelRegression extends CommonLibrary {
         // Before we load the page again, we should clear the cookies to ensure a fresh session
         driver.get(testURL);
 
-        List<WebElement> productList = HtmlElementUtils.locateElements(generalConstants.productNamesXpath);
+        List<WebElement> productList = driver.findElements(By.xpath(generalConstants.productNamesXpath));
 
         SeLionAsserts.verifyFalse(productList.isEmpty());
     }
