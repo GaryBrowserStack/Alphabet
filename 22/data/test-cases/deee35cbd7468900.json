@@ -1,0 +1,131 @@
+{
+  "uid" : "deee35cbd7468900",
+  "name" : "validateProductList",
+  "fullName" : "com.alphabet.page.PageLevelRegression.validateProductList",
+  "historyId" : "af6a3ebe17e6e70bcd9752543c5387c2",
+  "time" : {
+    "start" : 1628518031375,
+    "stop" : 1628518033774,
+    "duration" : 2399
+  },
+  "description" : "Validate the product list",
+  "descriptionHtml" : "<p>Validate the product list</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628518027345,
+      "stop" : 1628518031367,
+      "duration" : 4022
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Validate the product list",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Validate that the list of products on the page is not empty",
+      "time" : {
+        "start" : 1628518031376,
+        "stop" : 1628518033770,
+        "duration" : 2394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628518033775,
+      "stop" : 1628518034710,
+      "duration" : 935
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.alphabet.page.PageLevelRegression"
+  }, {
+    "name" : "testClass",
+    "value" : "com.alphabet.page.PageLevelRegression"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateProductList"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Selion Test"
+  }, {
+    "name" : "suite",
+    "value" : "ParallelTest2"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.alphabet.page.PageLevelRegression"
+  }, {
+    "name" : "host",
+    "value" : "fv-az75-775"
+  }, {
+    "name" : "thread",
+    "value" : "5091@fv-az75-775.pool-2-thread-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config",
+    "value" : "parallel.conf.json"
+  }, {
+    "name" : "environment",
+    "value" : "env2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "deee35cbd7468900.json",
+  "parameterValues" : [ "parallel.conf.json", "env2" ]
+}

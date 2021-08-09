@@ -1,0 +1,131 @@
+{
+  "uid" : "faf1556a9a5c3ed4",
+  "name" : "validateValidPage",
+  "fullName" : "com.alphabet.page.PageLevelRegression.validateValidPage",
+  "historyId" : "79b1c3f17d41ab93ca7cda48d751ffb5",
+  "time" : {
+    "start" : 1628518023881,
+    "stop" : 1628518026614,
+    "duration" : 2733
+  },
+  "description" : "Validate that we have hit a valid page",
+  "descriptionHtml" : "<p>Validate that we have hit a valid page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628518018895,
+      "stop" : 1628518023872,
+      "duration" : 4977
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Validate that we have hit a valid page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Test that the title of the page contains the string we expect",
+      "time" : {
+        "start" : 1628518023889,
+        "stop" : 1628518026613,
+        "duration" : 2724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628518026616,
+      "stop" : 1628518027342,
+      "duration" : 726
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.alphabet.page.PageLevelRegression"
+  }, {
+    "name" : "testClass",
+    "value" : "com.alphabet.page.PageLevelRegression"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateValidPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Selion Test"
+  }, {
+    "name" : "suite",
+    "value" : "ParallelTest2"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.alphabet.page.PageLevelRegression"
+  }, {
+    "name" : "host",
+    "value" : "fv-az75-775"
+  }, {
+    "name" : "thread",
+    "value" : "5091@fv-az75-775.pool-2-thread-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config",
+    "value" : "parallel.conf.json"
+  }, {
+    "name" : "environment",
+    "value" : "env2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "faf1556a9a5c3ed4.json",
+  "parameterValues" : [ "parallel.conf.json", "env2" ]
+}
