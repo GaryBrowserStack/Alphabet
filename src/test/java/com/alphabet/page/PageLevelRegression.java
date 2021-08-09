@@ -16,7 +16,7 @@ public class PageLevelRegression extends CommonLibrary {
     @Test(priority = 1)
     public void validateValidPage() {
         driver.get(testURL);
-        
+
         // First thing we want to do is ensure we are on the correct page by looking for an identifier.
         SeLionAsserts.verifyTrue(driver.getTitle().contains("StackDemo"),
                 "The correct page is being shown.");
