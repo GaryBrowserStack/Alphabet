@@ -72,6 +72,7 @@
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/common/CommonLibrary.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/page/PageLevelRegression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/page/PageLevelRegression_Copy.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/constants/generalConstants.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/LocalRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/SingleRun.xml" afterDir="false" />
@@ -736,6 +737,7 @@
       <recent name="$PROJECT_DIR$/.github" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.alphabet.page" />
       <recent name="constants" />
       <recent name="com.alphabet.common" />
     </key>
@@ -845,7 +847,7 @@
       <workItem from="1628250556976" duration="10000" />
       <workItem from="1628250603297" duration="836000" />
       <workItem from="1628251458718" duration="4569000" />
-      <workItem from="1628344783922" duration="12308000" />
+      <workItem from="1628344783922" duration="12665000" />
     </task>
     <servers />
   </component>
