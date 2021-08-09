@@ -18,7 +18,7 @@ jobs:
           local-testing: start
           local-identifier: random
 
-      -name: 'Run a Single test'
+      - name: 'Run a Single test'
         - uses: actions/checkout@v2
         - run: mvn clean
         - run: mvn test -e -P single
