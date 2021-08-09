@@ -5,6 +5,7 @@
 
     <parameter name="seleniumHost" value=""/>
     <parameter name="config" value="parallel.conf.json"/>
+    <parameter name="environment" value="chrome"/>
 
     <test name="SingleTest">
         <classes>
