@@ -7,6 +7,7 @@ import com.paypal.selion.platform.grid.Grid;
 import com.paypal.selion.platform.html.support.HtmlElementUtils;
 import constants.generalConstants;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.List;
@@ -14,6 +15,11 @@ import java.util.List;
 @WebTest
 @Test(singleThreaded = true)
 public class PageLevelRegression extends CommonLibrary {
+
+    @BeforeTest
+    public void setup() {
+        driver = Grid.driver();
+    }
 
     @Test(priority = 1)
     public void InitialTest() {

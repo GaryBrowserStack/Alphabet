@@ -75,7 +75,7 @@ public class CommonLibrary {
 
         //driver = new RemoteWebDriver(
           //      new URL("http://" + username + ":" + accessKey + "@" + config.get("server") + "/wd/hub"), capabilities);
-        driver = Grid.driver();
+
     }
 
     @AfterMethod(alwaysRun = true)
