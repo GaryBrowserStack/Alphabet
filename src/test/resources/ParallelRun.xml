@@ -3,11 +3,33 @@
        skipfailedinvocationcounts="false" junit="false" parallel="classes"
        data-provider-thread-count="1" annotations="JDK">
 
-    <parameter name="seleniumHost" value=""/>
-    <parameter name="config" value="parallel.conf.json"/>
-    <parameter name="environment" value="chrome"/>
+    <test name="ParallelTest1">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="chrome"/>
+        <classes>
+            <class name="com.alphabet.page.PageLevelRegression"/>
+        </classes>
+    </test>
 
-    <test name="SingleTest">
+    <test name="ParallelTest2">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="firefox"/>
+        <classes>
+            <class name="com.alphabet.page.PageLevelRegression"/>
+        </classes>
+    </test>
+
+    <test name="ParallelTest3">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="safari"/>
+        <classes>
+            <class name="com.alphabet.page.PageLevelRegression"/>
+        </classes>
+    </test>
+
+    <test name="ParallelTest4">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="ie"/>
         <classes>
             <class name="com.alphabet.page.PageLevelRegression"/>
         </classes>
