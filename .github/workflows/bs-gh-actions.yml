@@ -18,10 +18,14 @@ jobs:
           local-testing: start
           local-identifier: random
 
+      - name: 'Checkout the Repository'
+        uses: actions/checkout@v2
+
+      - name: 'Clean Maven'
+        run: mvn clean
+
       - name: 'Run a Single test'
-        - uses: actions/checkout@v2
-        - run: mvn clean
-        - run: mvn test -e -P single
+        run: mvn test -e -P single
 
       - name: 'BrowserStackLocal Stop'  # Terminating the BrowserStackLocal tunnel connection
         uses: browserstack/github-actions/setup-local@master
