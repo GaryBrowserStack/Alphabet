@@ -13,6 +13,9 @@ import java.util.List;
 @Test(singleThreaded = true)
 public class PageLevelRegression extends CommonLibrary {
 
+    /**
+     * Validate that the page we are checking is the correct one
+     */
     @Test(priority = 1)
     public void validateValidPage() {
         driver.get(testURL);
@@ -22,9 +25,14 @@ public class PageLevelRegression extends CommonLibrary {
                 "The correct page is being shown.");
     }
 
+    /**
+     * Validate that the product list is present on the page
+     * @throws Exception - throw an Exception if necessary
+     */
     @Test(priority = 2)
     public void validateProductList() throws Exception {
         // Before we load the page again, we should clear the cookies to ensure a fresh session
+        driver.manage().deleteAllCookies();
         driver.get(testURL);
 
         List<WebElement> productList =

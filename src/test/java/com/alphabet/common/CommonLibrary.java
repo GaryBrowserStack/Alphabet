@@ -2,7 +2,6 @@ package com.alphabet.common;
 
 import com.browserstack.local.Local;
 import com.paypal.selion.platform.asserts.SeLionAsserts;
-import com.paypal.selion.platform.grid.Grid;
 import constants.generalConstants;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -104,8 +103,6 @@ public class CommonLibrary {
             // Click on the current "Add to Cart" button
             cartButtonList.get(i).click();
             Thread.sleep(2000);
-
-            String currentSubtotalPrice = productInstallmentPriceList.get(i).getText().split("x ")[1];
 
             // Get the cart pricing elements on the page
             WebElement cartPrice = driver.findElement(By.xpath(generalConstants.cartProductPrice));
