@@ -66,17 +66,15 @@
       <change afterPath="$PROJECT_DIR$/../AEMScripts/src/main/java/com/aemscripts/retention/UpdateRenewCTAText.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AEMScripts/src/main/java/com/aemscripts/retention/UpdateSymToNLOK.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.github/workflows/bs-gh-actions.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/LocalRun.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/SingleRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/common/CommonLibrary.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/page/PageLevelRegression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/page/PageLevelRegression_Copy.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/alphabet/pricing/PricingChecks.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/constants/generalConstants.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/LocalRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/ParallelRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/SingleRun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/SuiteRun.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/conf/local.conf.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/conf/parallel.conf.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/conf/single.conf.json" afterDir="false" />
@@ -848,7 +846,7 @@
       <workItem from="1628250556976" duration="10000" />
       <workItem from="1628250603297" duration="836000" />
       <workItem from="1628251458718" duration="4569000" />
-      <workItem from="1628344783922" duration="21252000" />
+      <workItem from="1628344783922" duration="28045000" />
     </task>
     <servers />
   </component>
@@ -895,30 +893,30 @@
       <screen x="0" y="23" width="1920" height="1112" />
     </state>
     <state x="831" y="483" key="Github.ShareDialog/0.23.1920.1112@0.23.1920.1112" timestamp="1628355284197" />
-    <state width="1200" height="308" key="GridCell.Tab.0.bottom" timestamp="1628517546021">
+    <state width="1200" height="308" key="GridCell.Tab.0.bottom" timestamp="1628677671003">
       <screen x="1680" y="23" width="1200" height="1897" />
     </state>
     <state width="1920" height="308" key="GridCell.Tab.0.bottom/0.23.1920.1112@0.23.1920.1112" timestamp="1628353626759" />
     <state width="1920" height="290" key="GridCell.Tab.0.bottom/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@-1920.23.1920.1057" timestamp="1628258796598" />
-    <state width="1200" height="308" key="GridCell.Tab.0.bottom/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@1680.23.1200.1897" timestamp="1628517546021" />
-    <state width="1200" height="308" key="GridCell.Tab.0.center" timestamp="1628517546020">
+    <state width="1200" height="308" key="GridCell.Tab.0.bottom/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@1680.23.1200.1897" timestamp="1628677671003" />
+    <state width="1200" height="308" key="GridCell.Tab.0.center" timestamp="1628677671002">
       <screen x="1680" y="23" width="1200" height="1897" />
     </state>
     <state width="1920" height="308" key="GridCell.Tab.0.center/0.23.1920.1112@0.23.1920.1112" timestamp="1628353626759" />
     <state width="1920" height="290" key="GridCell.Tab.0.center/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@-1920.23.1920.1057" timestamp="1628258796597" />
-    <state width="1200" height="308" key="GridCell.Tab.0.center/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@1680.23.1200.1897" timestamp="1628517546020" />
-    <state width="1200" height="308" key="GridCell.Tab.0.left" timestamp="1628517546019">
+    <state width="1200" height="308" key="GridCell.Tab.0.center/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@1680.23.1200.1897" timestamp="1628677671002" />
+    <state width="1200" height="308" key="GridCell.Tab.0.left" timestamp="1628677671001">
       <screen x="1680" y="23" width="1200" height="1897" />
     </state>
     <state width="1920" height="308" key="GridCell.Tab.0.left/0.23.1920.1112@0.23.1920.1112" timestamp="1628353626758" />
     <state width="1920" height="290" key="GridCell.Tab.0.left/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@-1920.23.1920.1057" timestamp="1628258796597" />
-    <state width="1200" height="308" key="GridCell.Tab.0.left/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@1680.23.1200.1897" timestamp="1628517546019" />
-    <state width="1200" height="308" key="GridCell.Tab.0.right" timestamp="1628517546020">
+    <state width="1200" height="308" key="GridCell.Tab.0.left/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@1680.23.1200.1897" timestamp="1628677671001" />
+    <state width="1200" height="308" key="GridCell.Tab.0.right" timestamp="1628677671002">
       <screen x="1680" y="23" width="1200" height="1897" />
     </state>
     <state width="1920" height="308" key="GridCell.Tab.0.right/0.23.1920.1112@0.23.1920.1112" timestamp="1628353626759" />
     <state width="1920" height="290" key="GridCell.Tab.0.right/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@-1920.23.1920.1057" timestamp="1628258796598" />
-    <state width="1200" height="308" key="GridCell.Tab.0.right/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@1680.23.1200.1897" timestamp="1628517546020" />
+    <state width="1200" height="308" key="GridCell.Tab.0.right/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@1680.23.1200.1897" timestamp="1628677671002" />
     <state width="1920" height="379" key="GridCell.Tab.1.bottom" timestamp="1628346838517">
       <screen x="0" y="23" width="1920" height="1112" />
     </state>
@@ -956,6 +954,10 @@
       <screen x="1680" y="23" width="1200" height="1897" />
     </state>
     <state x="1986" y="604" width="586" height="735" key="find.popup/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@1680.23.1200.1897" timestamp="1628507273230" />
+    <state x="1878" y="634" key="new project wizard" timestamp="1628520048922">
+      <screen x="1680" y="23" width="1200" height="1897" />
+    </state>
+    <state x="1878" y="634" key="new project wizard/1680.23.1200.1897/-1920.23.1920.1057/0.23.1680.962@1680.23.1200.1897" timestamp="1628520048922" />
     <state x="1944" y="468" width="670" height="676" key="search.everywhere.popup" timestamp="1628507860062">
       <screen x="1680" y="23" width="1200" height="1897" />
     </state>

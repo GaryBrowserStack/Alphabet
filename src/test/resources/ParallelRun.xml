@@ -5,7 +5,7 @@
 
     <test name="ParallelTest1">
         <parameter name="config" value="parallel.conf.json"/>
-        <parameter name="environment" value="env1"/>
+        <parameter name="environment" value="ios"/>
         <classes>
             <class name="com.alphabet.page.PageLevelRegression"/>
         </classes>
@@ -13,7 +13,7 @@
 
     <test name="ParallelTest2">
         <parameter name="config" value="parallel.conf.json"/>
-        <parameter name="environment" value="env2"/>
+        <parameter name="environment" value="win_chrome"/>
         <classes>
             <class name="com.alphabet.page.PageLevelRegression"/>
         </classes>
@@ -21,7 +21,7 @@
 
     <test name="ParallelTest3">
         <parameter name="config" value="parallel.conf.json"/>
-        <parameter name="environment" value="env3"/>
+        <parameter name="environment" value="osx"/>
         <classes>
             <class name="com.alphabet.page.PageLevelRegression"/>
         </classes>

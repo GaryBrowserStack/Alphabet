@@ -4,24 +4,16 @@ import com.alphabet.common.CommonLibrary;
 import com.paypal.selion.annotations.WebTest;
 import com.paypal.selion.platform.asserts.SeLionAsserts;
 import constants.generalConstants;
-import io.qameta.allure.Description;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-
-
 import java.util.List;
 
 @WebTest
 @Test(singleThreaded = true)
 public class PageLevelRegression extends CommonLibrary {
+
     @Test(priority = 1)
-    @Description("Validate that we have hit a valid page")
-    @Step("Test that the title of the page contains the string we expect")
-    @Severity(SeverityLevel.MINOR)
     public void validateValidPage() {
         driver.get(testURL);
 
@@ -31,14 +23,12 @@ public class PageLevelRegression extends CommonLibrary {
     }
 
     @Test(priority = 2)
-    @Description("Validate the product list")
-    @Step("Validate that the list of products on the page is not empty")
-    @Severity(SeverityLevel.NORMAL)
     public void validateProductList() throws Exception {
         // Before we load the page again, we should clear the cookies to ensure a fresh session
         driver.get(testURL);
 
-        List<WebElement> productList = driver.findElements(By.xpath(generalConstants.productNamesXpath));
+        List<WebElement> productList =
+                driver.findElements(By.xpath(generalConstants.productNamesXpath));
 
         SeLionAsserts.verifyFalse(productList.isEmpty());
     }

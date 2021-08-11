@@ -612,3 +612,27 @@ java.lang.NullPointerException
 08.09.2021 14:23:29.121,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
 08.09.2021 14:23:37.652,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, ParallelTest3
 08.09.2021 14:23:42.808,[16] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.09.2021 15:12:35.879,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/target/surefire-reports/RuntimeReporter/index.html
+08.09.2021 15:12:35.992,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.09.2021 15:12:36.007,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, ParallelTest1
+08.09.2021 15:12:45.562,[14] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.09.2021 15:12:59.653,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, ParallelTest2
+08.09.2021 15:13:03.592,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.09.2021 15:13:13.747,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, ParallelTest3
+08.09.2021 15:13:22.019,[16] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.09.2021 15:28:57.004,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/target/surefire-reports/RuntimeReporter/index.html
+08.09.2021 15:28:57.116,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.09.2021 15:28:57.137,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, ParallelTest1
+08.09.2021 15:29:13.700,[15] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.09.2021 15:29:29.434,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, ParallelTest2
+08.09.2021 15:29:33.500,[16] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.09.2021 15:29:44.437,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, ParallelTest3
+08.09.2021 15:29:47.544,[17] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.09.2021 15:38:45.749,[1] SeLion-1.2.0 INFO JDK Information: OpenJDK 64-Bit Server VM from Oracle Corporation ver. 14.0.2
+08.09.2021 15:38:45.753,[1] SeLion-1.2.0 INFO Runtime Report : /Users/Gary_Behan/Documents/Java/Alphabet/target/surefire-reports/RuntimeReporter/index.html
+08.09.2021 15:38:45.874,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, ParallelTest1
+08.09.2021 15:38:55.865,[17] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.09.2021 15:39:09.849,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, ParallelTest2
+08.09.2021 15:39:13.773,[18] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
+08.09.2021 15:39:22.353,[1] SeLion-1.2.0 FINE Parallel suite execution. Updating SeLion local config for Test, ParallelTest3
+08.09.2021 15:39:25.081,[19] SeLion-1.2.0 FINE No parameters for browser dimensions were provided.
