@@ -91,30 +91,27 @@ public class CommonLibrary {
         }
     }
 
+    /**
+     * Check the pricing information between page and cart
+     * @throws Exception
+     */
     public void checkCartProductInformation() throws Exception {
-        List<WebElement> productNameList = driver.findElements(By.xpath(generalConstants.productNamesXpath));
         List<WebElement> productPriceList = driver.findElements(By.xpath(generalConstants.productPricesXpath));
         List<WebElement> productInstallmentPriceList = driver.findElements(By.xpath(generalConstants.productInstallmentPricesXpath));
         List<WebElement> cartButtonList = driver.findElements(By.xpath(generalConstants.addToCartButtons));
 
-        for (int i = 0; i < productNameList.size(); i++) {
+        for (int i = 0; i < productPriceList.size(); i++) {
             // Click on the current "Add to Cart" button
             cartButtonList.get(i).click();
             Thread.sleep(2000);
 
             String currentSubtotalPrice = productInstallmentPriceList.get(i).getText().split("x ")[1];
 
-            // Get the name of the product as it appears in the cart and compare it to the name of the product on the page that was added
-            WebElement cartName = driver.findElement(By.xpath(generalConstants.cartProductName));
-
             // Get the cart pricing elements on the page
             WebElement cartPrice = driver.findElement(By.xpath(generalConstants.cartProductPrice));
             WebElement cartSubtotalPrice = driver.findElement(By.xpath(generalConstants.cartSubPrice));
             String cartSubtotalInstallmentPrice = driver.findElement(By.xpath(generalConstants.cartSubInstallmentPrice)).getText().split("x ")[1];
 
-            // Finally we will verify that these are all matching. Using verifyEquals instead of assertEquals stops the test from exiting if one Assert fails.
-            SeLionAsserts.verifyEquals(productNameList.get(i).getText(), cartName.getText(),
-                    "The product name is matching in the cart.");
             SeLionAsserts.verifyEquals(productPriceList.get(i).getText(), cartPrice.getText().replace(" ", ""),
                     "The top cart price is matching with the page.");
             SeLionAsserts.verifyEquals(productPriceList.get(i).getText(), cartSubtotalPrice.getText().replace(" ", ""),

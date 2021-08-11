@@ -1,12 +1,12 @@
 {
   "reportSummary": {
     "testMethodsSummary": {
-      "passed": 2,
+      "passed": 1,
       "failed": 0,
       "skipped": 0
     },
     "configurationMethodsSummary": {
-      "passed": 4,
+      "passed": 2,
       "failed": 0,
       "skipped": 0
     }
@@ -15,30 +15,238 @@
     {
       "suite": "Selion Test",
       "test": "SingleTest",
-      "packageInfo": "com.alphabet.page",
-      "className": "PageLevelRegression",
-      "methodName": "",
+      "packageInfo": "com.alphabet.pricing",
+      "className": "PricingChecks",
+      "methodName": "validatePricingOnPage",
       "status": "Passed",
-      "startTime": "2021-08-09T13:16:23.284+01:00",
-      "endTime": "2021-08-09T13:16:24.457+01:00",
+      "startTime": "2021-08-11T14:42:34.563+01:00",
+      "endTime": "2021-08-11T14:44:39.980+01:00",
+      "description": "",
       "logs": [
         {
-          "message": "Soft Assert passed in validateProductList()\n"
-        }
-      ]
-    },
-    {
-      "suite": "Selion Test",
-      "test": "SingleTest",
-      "packageInfo": "com.alphabet.page",
-      "className": "PageLevelRegression",
-      "methodName": "",
-      "status": "Passed",
-      "startTime": "2021-08-09T13:16:18.466+01:00",
-      "endTime": "2021-08-09T13:16:19.764+01:00",
-      "logs": [
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
         {
-          "message": "Soft Assert [The correct page is being shown.] passed in validateValidPage()\n"
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The top cart price is matching with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The subtotal price in the cart matches with the page.] passed in validatePricingOnPage()\n"
+        },
+        {
+          "message": "Soft Assert [The installments amount in the cart matches with the page.] passed in validatePricingOnPage()\n"
         }
       ]
     }
@@ -48,57 +256,33 @@
       "type": "BeforeMethod",
       "suite": "Selion Test",
       "test": "SingleTest",
-      "packageInfo": "com.alphabet.page",
-      "className": "PageLevelRegression",
-      "methodName": "",
+      "packageInfo": "com.alphabet.pricing",
+      "className": "PricingChecks",
+      "methodName": "setUp",
       "status": "Passed",
-      "startTime": "2021-08-09T13:16:15.196+01:00",
-      "endTime": "2021-08-09T13:16:18.451+01:00",
+      "startTime": "2021-08-11T14:42:27.224+01:00",
+      "endTime": "2021-08-11T14:42:34.427+01:00",
       "description": ""
     },
     {
       "type": "AfterMethod",
       "suite": "Selion Test",
       "test": "SingleTest",
-      "packageInfo": "com.alphabet.page",
-      "className": "PageLevelRegression",
-      "methodName": "",
+      "packageInfo": "com.alphabet.pricing",
+      "className": "PricingChecks",
+      "methodName": "tearDown",
       "status": "Passed",
-      "startTime": "2021-08-09T13:16:19.768+01:00",
-      "endTime": "2021-08-09T13:16:20.600+01:00",
-      "description": ""
-    },
-    {
-      "type": "BeforeMethod",
-      "suite": "Selion Test",
-      "test": "SingleTest",
-      "packageInfo": "com.alphabet.page",
-      "className": "PageLevelRegression",
-      "methodName": "",
-      "status": "Passed",
-      "startTime": "2021-08-09T13:16:20.603+01:00",
-      "endTime": "2021-08-09T13:16:23.281+01:00",
-      "description": ""
-    },
-    {
-      "type": "AfterMethod",
-      "suite": "Selion Test",
-      "test": "SingleTest",
-      "packageInfo": "com.alphabet.page",
-      "className": "PageLevelRegression",
-      "methodName": "",
-      "status": "Passed",
-      "startTime": "2021-08-09T13:16:24.461+01:00",
-      "endTime": "2021-08-09T13:16:25.244+01:00",
+      "startTime": "2021-08-11T14:44:40.063+01:00",
+      "endTime": "2021-08-11T14:44:40.745+01:00",
       "description": ""
     }
   ],
   "configSummary": {
-    "currentDate": "2021-08-09T13:16:15.156+01:00"
+    "currentDate": "2021-08-11T14:42:27.030+01:00"
   },
   "localConfigSummary": [
     {
-      "currentDate": "2021-08-09T13:16:15.175+01:00",
+      "currentDate": "2021-08-11T14:42:27.098+01:00",
       "suite": "Selion Test",
       "test": "SingleTest"
     }

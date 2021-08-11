@@ -9,7 +9,7 @@
 
     <test name="SingleTest">
         <classes>
-            <class name="com.alphabet.page.PageLevelRegression"/>
+            <class name="com.alphabet.pricing.PricingChecks"/>
         </classes>
     </test>
 </suite>

@@ -1,0 +1,27 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "garybehan_7f6qGO",
+  "key": "ATSSDf9Xs5pPgBLtznYE",
+
+  "capabilities": {
+    "build": "browserstack-build-1",
+    "name": "suite_test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    },
+    "firefox": {
+      "browser": "firefox"
+    },
+    "safari": {
+      "os": "OS X",
+      "browser": "safari"
+    },
+    "ie": {
+      "browser": "internet explorer"
+    }
+  }
+}
